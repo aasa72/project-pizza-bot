@@ -46,7 +46,7 @@ function myFunk() {
   const time = cooking(pizzaNum);
 
 
-  const para = "You have ordered " + pizzaNum + " " + pizzaType + " cooking will take " + time + " and the cost is " + total
+  const para = "You have ordered " + pizzaNum + " " + pizzaType + ", cooking will take " + time + " min, and the cost is " + total + " kr."
 
   document.getElementById("text").innerHTML = para;
 
